@@ -12,3 +12,17 @@ E:\rllproject\Oyoproject\Dll\obj\Debug\Dll.csproj.CoreCompileInputs.cache
 E:\rllproject\Oyoproject\Dll\obj\Debug\Dll.csproj.CopyComplete
 E:\rllproject\Oyoproject\Dll\obj\Debug\Dll.dll
 E:\rllproject\Oyoproject\Dll\obj\Debug\Dll.pdb
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\Dll.dll.config
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\Dll.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\Dll.pdb
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\BusinessEntity.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\EntityFramework.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\BusinessEntity.pdb
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\EntityFramework.xml
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\obj\Debug\Dll.csproj.AssemblyReference.cache
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\obj\Debug\Dll.csproj.CoreCompileInputs.cache
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\obj\Debug\Dll.csproj.CopyComplete
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\obj\Debug\Dll.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\Dll\obj\Debug\Dll.pdb

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="oyoModelStoreContainer" CdmEntityContainer="oyoEntities1">
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="oyoModel.customer">
+        <MappingFragment StoreEntitySet="customer">
+          <ScalarProperty Name="cid" ColumnName="cid" />
+          <ScalarProperty Name="cname" ColumnName="cname" />
+          <ScalarProperty Name="cpassword" ColumnName="cpassword" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="caddress" ColumnName="caddress" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="aadhar" ColumnName="aadhar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rooms">
+      <EntityTypeMapping TypeName="oyoModel.room">
+        <MappingFragment StoreEntitySet="room">
+          <ScalarProperty Name="ac" ColumnName="ac" />
+          <ScalarProperty Name="roomavailability" ColumnName="roomavailability" />
+          <ScalarProperty Name="roomtype" ColumnName="roomtype" />
+          <ScalarProperty Name="roomno" ColumnName="roomno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="types">
+      <EntityTypeMapping TypeName="oyoModel.type">
+        <MappingFragment StoreEntitySet="type">
+          <ScalarProperty Name="roomcost" ColumnName="roomcost" />
+          <ScalarProperty Name="rtype" ColumnName="rtype" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

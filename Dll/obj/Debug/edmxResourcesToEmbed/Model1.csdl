@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="oyoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="cid" />
+    </Key>
+    <Property Name="cid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="cpassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="age" Type="Int32" />
+    <Property Name="gender" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="mail" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="caddress" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="aadhar" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="oyoEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="customers" EntityType="Self.customer" />
+    <EntitySet Name="rooms" EntityType="oyoModel.room" />
+    <EntitySet Name="types" EntityType="oyoModel.type" />
+    <AssociationSet Name="FK__room__roomtype__5812160E" Association="oyoModel.FK__room__roomtype__5812160E">
+      <End Role="type" EntitySet="types" />
+      <End Role="room" EntitySet="rooms" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="room">
+    <Key>
+      <PropertyRef Name="roomno" />
+    </Key>
+    <Property Name="roomno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="roomtype" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="roomavailability" Type="Boolean" />
+    <Property Name="ac" Type="Boolean" />
+    <NavigationProperty Name="type" Relationship="oyoModel.FK__room__roomtype__5812160E" FromRole="room" ToRole="type" />
+  </EntityType>
+  <EntityType Name="type">
+    <Key>
+      <PropertyRef Name="rtype" />
+    </Key>
+    <Property Name="rtype" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="roomcost" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="rooms" Relationship="oyoModel.FK__room__roomtype__5812160E" FromRole="type" ToRole="room" />
+  </EntityType>
+  <Association Name="FK__room__roomtype__5812160E">
+    <End Type="oyoModel.type" Role="type" Multiplicity="0..1" />
+    <End Type="oyoModel.room" Role="room" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="type">
+        <PropertyRef Name="rtype" />
+      </Principal>
+      <Dependent Role="room">
+        <PropertyRef Name="roomtype" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

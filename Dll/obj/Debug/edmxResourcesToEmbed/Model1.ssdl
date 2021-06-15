@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="oyoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="cid" />
+    </Key>
+    <Property Name="cid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cname" Type="varchar" MaxLength="20" />
+    <Property Name="cpassword" Type="varchar" MaxLength="20" />
+    <Property Name="age" Type="int" />
+    <Property Name="gender" Type="varchar" MaxLength="20" />
+    <Property Name="mail" Type="varchar" MaxLength="20" />
+    <Property Name="caddress" Type="varchar" MaxLength="20" />
+    <Property Name="phone" Type="varchar" MaxLength="20" />
+    <Property Name="aadhar" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="room">
+    <Key>
+      <PropertyRef Name="roomno" />
+    </Key>
+    <Property Name="roomno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roomtype" Type="varchar" MaxLength="20" />
+    <Property Name="roomavailability" Type="bit" />
+    <Property Name="ac" Type="bit" />
+  </EntityType>
+  <EntityType Name="type">
+    <Key>
+      <PropertyRef Name="rtype" />
+    </Key>
+    <Property Name="rtype" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="roomcost" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <Association Name="FK__room__roomtype__5812160E">
+    <End Role="type" Type="Self.type" Multiplicity="0..1" />
+    <End Role="room" Type="Self.room" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="type">
+        <PropertyRef Name="rtype" />
+      </Principal>
+      <Dependent Role="room">
+        <PropertyRef Name="roomtype" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="oyoModelStoreContainer">
+    <EntitySet Name="customer" EntityType="Self.customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="room" EntityType="Self.room" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="type" EntityType="Self.type" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__room__roomtype__5812160E" Association="Self.FK__room__roomtype__5812160E">
+      <End Role="type" EntitySet="type" />
+      <End Role="room" EntitySet="room" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

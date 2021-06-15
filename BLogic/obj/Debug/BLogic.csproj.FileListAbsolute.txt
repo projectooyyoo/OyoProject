@@ -12,3 +12,17 @@ E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.csproj.CoreCompileInputs.cache
 E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.csproj.CopyComplete
 E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.dll
 E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.pdb
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\BLogic.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\BLogic.pdb
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\BusinessEntity.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\Dll.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\EntityFramework.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\BusinessEntity.pdb
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\Dll.pdb
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\Dll.dll.config
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\bin\Debug\EntityFramework.xml
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\obj\Debug\BLogic.csproj.AssemblyReference.cache
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\obj\Debug\BLogic.csproj.CoreCompileInputs.cache
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\obj\Debug\BLogic.csproj.CopyComplete
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\obj\Debug\BLogic.dll
+C:\Users\Suresh\Desktop\project\Oyoproject\BLogic\obj\Debug\BLogic.pdb
