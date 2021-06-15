@@ -1,0 +1,5 @@
+E:\rllproject\Oyoproject\BusinessEntity\bin\Debug\BusinessEntity.dll
+E:\rllproject\Oyoproject\BusinessEntity\bin\Debug\BusinessEntity.pdb
+E:\rllproject\Oyoproject\BusinessEntity\obj\Debug\BusinessEntity.csproj.CoreCompileInputs.cache
+E:\rllproject\Oyoproject\BusinessEntity\obj\Debug\BusinessEntity.dll
+E:\rllproject\Oyoproject\BusinessEntity\obj\Debug\BusinessEntity.pdb

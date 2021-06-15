@@ -1,0 +1,14 @@
+E:\rllproject\Oyoproject\BLogic\bin\Debug\BLogic.dll
+E:\rllproject\Oyoproject\BLogic\bin\Debug\BLogic.pdb
+E:\rllproject\Oyoproject\BLogic\bin\Debug\BusinessEntity.dll
+E:\rllproject\Oyoproject\BLogic\bin\Debug\Dll.dll
+E:\rllproject\Oyoproject\BLogic\bin\Debug\EntityFramework.dll
+E:\rllproject\Oyoproject\BLogic\bin\Debug\BusinessEntity.pdb
+E:\rllproject\Oyoproject\BLogic\bin\Debug\Dll.pdb
+E:\rllproject\Oyoproject\BLogic\bin\Debug\Dll.dll.config
+E:\rllproject\Oyoproject\BLogic\bin\Debug\EntityFramework.xml
+E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.csprojAssemblyReference.cache
+E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.csproj.CoreCompileInputs.cache
+E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.csproj.CopyComplete
+E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.dll
+E:\rllproject\Oyoproject\BLogic\obj\Debug\BLogic.pdb
